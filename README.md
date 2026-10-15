@@ -1,70 +1,33 @@
-# Getting Started with Create React App
+TRPG「ルーレットリボルバー」専用判定Webアプリ
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+TRPG「ルーレットリボルバー」のセッション中における戦闘・決闘判定を自動化・効率化するための専用Webアプリケーションです。サイコロを使用せず、スムーズでテンポの良いゲーム進行を実現します。
 
-## Available Scripts
+■ 概要
+・作品名: ルーレットリボルバー TRPG
+・サークル名: 創作巣窟総力
+・担当領域: UI/UXの改善、アクセス解析基盤（GA4）の構築、広報ポスター制作・EC運用
+・公開URL: https://roulette-revolver-trpg.web.app/
 
-In the project directory, you can run:
+■ 主な機能・特徴
+・自動戦闘・決闘判定: 専用アルゴリズムにより、複雑な計算を意識させず一瞬で判定結果を出力
+・プレイアビリティに特化したUI: セッションを阻害しない視認性の高いレイアウトと、直感的なタブ操作
 
-### `npm start`
+■ 使用技術
+・フロントエンド: HTML5, CSS3, JavaScript (React)
+・アクセス解析: Google Analytics 4 (GA4)
+・開発環境・ツール: Git, GitHub, VS Code
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+■ ローカルでの実行方法
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+```bash
+# 1. リポジトリのクローン
+git clone [https://github.com/horiekouki0616/roulette-revolver-trpg.git](https://github.com/horiekouki0616/roulette-revolver-trpg.git)
 
-### `npm test`
+# 2. ディレクトリへ移動
+cd roulette-revolver-trpg
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# 3. 依存パッケージのインストール
+npm install
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# 4. アプリケーションの起動
+npm start
