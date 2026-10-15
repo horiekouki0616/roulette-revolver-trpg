@@ -1,0 +1,63 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* 画面が光るアニメーション */
+@keyframes flash {
+  0% { background-color: rgba(255, 0, 0, 0.5); }
+  100% { background-color: transparent; }
+}
+
+/* 敵が震えるアニメーション */
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10px { transform: translate(-1px, -2px) rotate(-1deg); }
+  20px { transform: translate(-3px, 0px) rotate(1deg); }
+  30px { transform: translate(3px, 2px) rotate(0deg); }
+  40px { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  100% { transform: translate(0px, 0px) rotate(0deg); }
+}
+
+.hit-flash {
+  animation: flash 0.3s ease-out;
+}
+
+.enemy-shake {
+  animation: shake 0.2s;
+}
